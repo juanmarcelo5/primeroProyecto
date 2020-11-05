@@ -1,0 +1,48 @@
+.caja{
+    background-color:black;
+    height: 400px;
+}
+.row{
+  
+    display: flex;
+    color: white;
+}
+.row li{
+    margin: 20px 0;
+    list-style: none;
+}
+.bar{
+    background: #353b48;
+    display:block;
+    height: 4px;
+    border: 1px solid rgba(0,0,0,.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+    height: 2px;
+    float: left;
+    background: #2187e7;
+}
+.html{
+    width: 90%;
+}
+.css{
+    width: 50%;
+}
+.javaScript{
+    width: 50%;
+}
+.java{
+    width: 100%;
+    animation: despliegue 2s;
+}
+@keyframes despliegue{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
